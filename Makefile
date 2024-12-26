@@ -1,2 +1,2 @@
 dev:
-	go run cmd/api/api.go
+	go run cmd/api/main.go

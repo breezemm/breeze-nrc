@@ -1,0 +1,17 @@
+name: "breeze-nrc"
+
+services:
+  db:
+    image: "bitnami/mysql:latest"
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_DATABASE=event-planning_db
+    networks:
+      - development
+    ports:
+      - "3306:3306"
+    restart: "unless-stopped"
+
+networks:
+  development:
+    driver: bridge

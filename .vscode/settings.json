@@ -1,7 +1,10 @@
 {
   "cSpell.words": [
     "andybalholm",
+    "bitnami",
     "breezemm",
-    "gofiber"
-  ]
+    "gofiber",
+    "gorm"
+  ],
+  "discord.enabled": true
 }
